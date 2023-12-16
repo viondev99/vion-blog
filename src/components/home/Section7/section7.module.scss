@@ -1,0 +1,62 @@
+@import '../../../styles/variables.module.scss';
+
+.cover {
+  width: 100%;
+  background-color: $white;
+  padding: 60px 0 40px;
+
+  @media (max-width: 1024px) {
+    padding: 35px 0 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 0 20px 40px;
+  }
+}
+
+.section7 {
+  min-height: auto;
+  max-width: 1700px;
+}
+
+.coverContent {
+  width: 100%;
+  min-height: 1px;
+  display: flex;
+
+  @media (max-width: 767.98px) {
+    flex-wrap: wrap;
+  }
+}
+
+.wrapItem {
+  width: 16.666%;
+  padding: 10px;
+  text-align: center;
+
+  @media (max-width: 767.98px) {
+    width: 50%;
+
+    &.paddingItem34 {
+      padding: 30px 0 0;
+    }
+    &.paddingItem56 {
+      padding: 45px 0 0;
+    }
+  }
+
+  .itemLogo {
+    vertical-align: middle;
+    opacity: 1;
+    height: auto;
+    max-width: 100%;
+
+    @media (max-width: 1024px) and (min-width: 768px) {
+      max-width: 80%;
+    }
+
+    @media (max-width: 500px) {
+      max-width: 70%;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@import '../../styles/variables.module.scss';
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.85714285714286;
+}
+
+.wrapContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $white;
+  height: 80px;
+
+  @media (max-width: 767.98px) {
+    height: auto;
+    display: block;
+  }
+}
+
+.leftContent {
+  font-weight: 400;
+  font-size: px-to-rem(16);
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767.98px) {
+    justify-content: center;
+  }
+}
+
+.rightContent {
+  @media (max-width: 767.98px) {
+    margin-top: 20px;
+  }
+}
+
+.listSite {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767.98px) {
+    justify-content: center;
+  }
+
+  .linkSitebar {
+    height: 100%;
+    color: $white;
+    padding: 0 10px;
+    margin: 0 5px;
+
+    &:hover {
+      color: $primary;
+    }
+
+    &.selected {
+      color: $primary;
+    }
+
+    &.classContact {
+      @media (min-width: 768px) {
+        margin-right: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.centerContent {
+  @media (max-width: 767.98px) {
+    margin-top: 20px;
+  }
+}
+
+.listSocial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 767.98px) {
+    justify-content: center;
+  }
+}
+
+.linkSocial {
+  height: 20px;
+  margin: 0 15px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767.98px) {
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+}
+
+.icFB {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.icIns {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.icLinkedin {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}

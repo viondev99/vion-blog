@@ -1,0 +1,55 @@
+@import '../../../styles/variables.module.scss';
+
+.cover {
+  width: 100%;
+  background-color: $white;
+  padding: 160px 0 35px;
+
+  @media (max-width: 1024px) {
+    padding: 80px 20px 0;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 60px 20px 0;
+  }
+}
+
+.section3 {
+  min-height: auto;
+  max-width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.coverContent {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.title1 {
+  line-height: 1.2em;
+  font-size: px-to-rem(22);
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  margin-bottom: 25px;
+
+  @media (max-width: 550px) {
+    font-size: px-to-rem(20);
+  }
+}
+
+.title2 {
+  line-height: 1.3em;
+  font-size: px-to-rem(48);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+
+  @media (max-width: 991.98px) {
+    font-size: px-to-rem(37);
+  }
+
+  @media (max-width: 550px) {
+    font-size: px-to-rem(25);
+  }
+}

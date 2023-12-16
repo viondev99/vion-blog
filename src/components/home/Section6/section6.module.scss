@@ -1,0 +1,137 @@
+@import '../../../styles/variables.module.scss';
+
+.cover {
+  width: 100%;
+  padding: 100px 0 108px;
+  position: relative;
+
+  @media (max-width: 767.98px) {
+    padding: 60px 0 108px;
+  }
+
+  .bottom {
+    position: absolute;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    bottom: -1px;
+    transform: rotate(180deg);
+
+    .img_shape_fill {
+      width: calc(110% + 1.3px);
+      height: 120px;
+      z-index: -1;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.section6 {
+  min-height: auto;
+  display: flex;
+  max-width: 850px;
+}
+
+.coverContent {
+  width: 100%;
+  min-height: 1px;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.text1 {
+  line-height: 1.2em;
+  font-size: px-to-rem(22);
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media (max-width: 991.98px) {
+    font-size: px-to-rem(20);
+  }
+
+  @media (max-width: 767.98px) {
+    font-size: px-to-rem(18);
+  }
+}
+
+.wrapLine {
+  width: 100%;
+  text-align: center;
+  --divider-border-style: solid;
+  --divider-color: $line_black;
+  --divider-border-width: 3px;
+  padding: 6px 0;
+  margin-bottom: 25px;
+
+  .line {
+    width: 12%;
+    margin: 0 auto;
+    border-top: solid 3px $line_black;
+    display: flex;
+    direction: ltr;
+  }
+}
+
+.text2 {
+  margin-bottom: 20px;
+  line-height: 1.3em;
+  font-size: px-to-rem(48);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  @media (max-width: 991.98px) {
+    font-size: px-to-rem(36);
+  }
+
+  @media (max-width: 767.98px) {
+    font-size: px-to-rem(28);
+  }
+}
+
+.text3 {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-size: px-to-rem(20);
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: $text_black;
+
+  @media (max-width: 991.98px) {
+    font-size: px-to-rem(18);
+  }
+
+  @media (max-width: 767.98px) {
+    font-size: px-to-rem(16);
+  }
+}
+
+.wrapAvatar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $text_black;
+
+  @media (max-width: 767.98px) {
+    font-size: px-to-rem(14);
+  }
+
+  .img_avatar {
+    margin-right: 15px;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 91px;
+    height: 91px;
+
+    @media (max-width: 767.98px) {
+      width: 81px;
+      height: 81px;
+    }
+  }
+}

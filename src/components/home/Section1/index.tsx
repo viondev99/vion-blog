@@ -11,7 +11,7 @@ const Section1: FC = () => {
             <h5 className={classes.title1}>
               My main role for work is Front-end Developer. Outside of work, I
               love raising marine ornamental fish, traveling, singing karaoke
-              with staff
+              with the beautiful maids.
             </h5>
             <h2 className={classes.title2}>
               For me, work and entertainment must be in harmony

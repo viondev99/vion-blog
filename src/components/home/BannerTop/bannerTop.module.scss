@@ -128,10 +128,10 @@
   margin-right: 90px;
 
   // @media (max-width: 767.98px) {
-    width: 100%;
-    margin-right: 0;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  margin-right: 0;
+  display: flex;
+  justify-content: flex-start;
   // }
 
   .readMore {
@@ -141,6 +141,10 @@
     line-height: 1em;
     cursor: pointer;
     padding: 13px 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
     @media (max-width: 991.98px) {
       margin-bottom: 20px;
@@ -167,9 +171,9 @@
 
 .wrapWatchVideo {
   // @media (max-width: 767.98px) {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
   // }
 
   .watchVideo {
@@ -177,6 +181,10 @@
     line-height: 1em;
     cursor: pointer;
     padding: 13px 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
     @media (max-width: 991.98px) {
       padding: 10px 0;

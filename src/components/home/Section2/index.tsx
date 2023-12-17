@@ -22,7 +22,9 @@ const Section2: FC = () => {
                   <Image
                     src={img_model}
                     alt='an image, a people blowing out the birthday cake candles'
-                    title={'This is my 23 years old birthday, when I working at VMO Holdings company'}
+                    title={
+                      'This is my 23 years old birthday, when I working at VMO Holdings company'
+                    }
                     className={classes.imgModel}
                     priority
                   />
@@ -33,19 +35,19 @@ const Section2: FC = () => {
           <div className={classes.wrapRight}>
             <div className={classes.contentRight}>
               <h3 className={classes.title1}>
-                Discover Your Personal Style and the Confidence That Comes with
-                It.
+                VMO Holdings is my first company, this place was a great start
+                to my career
               </h3>
               <div className={classes.title2}>
-                Tempora aliqua cillum accusamus aperiam pharetra cupidatat
-                fermentum viverra delectus quidem incidunt tempus itaque quam,
-                id blandit dolores, proin reiciendis. Nostrum proin sem veniam
-                veritatis inceptos!
+                {
+                  "I learned so many things here. communication, behavior, skills, knowledge, technical. I met many good colleagues who taught me. especially a teacher who, even though he did not teach class, guided me wholeheartedly from the first lines of code. Below is my first product, even though it's too naive, it helped me get the first job in my life."
+                }
               </div>
               <div className={classes.actionBottom}>
                 <Link
-                  href={'#'}
+                  href={`https://github.com/viondev99/fe-vion-project`}
                   rel='noopener noreferrer'
+                  target='_blank'
                   className={classes.readMore}
                   onMouseEnter={() => setIsHovering(true)}
                   onMouseLeave={() => setIsHovering(false)}

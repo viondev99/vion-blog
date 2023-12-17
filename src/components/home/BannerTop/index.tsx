@@ -24,11 +24,15 @@ const BannerTop: FC = () => {
         <div className={classes.contentBanner}>
           <div className={classes.contentItem}>
             <h2 className={classes.title1}>Welcome to visit my blog</h2>
-            <h1 className={classes.title2}>I’m a Developer and I have 2 main channel for technical:</h1>
+            <h1 className={classes.title2}>
+              I’m a Developer and I have 2 main channel for technical:
+            </h1>
             <div className={classes.actionBottom}>
               <div className={classes.wrapReadMore}>
                 <div
-                  onClick={() => window.open('https://github.com/viondev99', '_blank')}
+                  onClick={() =>
+                    window.open('https://github.com/viondev99', '_blank')
+                  }
                   rel='noopener noreferrer'
                   className={classes.readMore}
                   onMouseEnter={() => setIsHovering(true)}
@@ -41,7 +45,7 @@ const BannerTop: FC = () => {
                     height={15}
                     className={classes.icArrow}
                   />
-                  <span>My Github Channel</span>
+                  <div>My Github Channel</div>
                 </div>
               </div>
               <div className={classes.wrapWatchVideo}>
@@ -57,7 +61,7 @@ const BannerTop: FC = () => {
                     height={15}
                     className={classes.icPlay}
                   />
-                  <span>My Youtube Channel</span>
+                  <div>My Youtube Channel</div>
                 </div>
               </div>
             </div>

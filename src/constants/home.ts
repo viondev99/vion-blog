@@ -6,10 +6,10 @@ import {
   ListItemLeftSection8,
 } from '@/models/home'
 
-import img1Section4 from '../assets/img/home/section4/model1_section4.png'
-import img2Section4 from '../assets/img/home/section4/model2_section4.png'
-import img3Section4 from '../assets/img/home/section4/model3_section4.png'
-import img4Section4 from '../assets/img/home/section4/model4_section4.png'
+import img1Section4 from '../assets/img/home/section4/img1S4.jpg'
+import img2Section4 from '../assets/img/home/section4/img2S4.jpg'
+import img3Section4 from '../assets/img/home/section4/img3S4.jpg'
+import img4Section4 from '../assets/img/home/section4/img4S4.jpg'
 
 import img1Section5 from '../assets/img/home/section5/figure1_section5.png'
 import img2Section5 from '../assets/img/home/section5/figure2_section5.png'
@@ -56,9 +56,9 @@ export const listItemSection5: ListItemSection5[] = [
       src: img1Section5,
       alt: 'image number 1',
     },
-    title: 'Wardrobe Styling',
+    title: 'Prepare Money',
     content:
-      'Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus',
+      'Of course, before every trip, money is a prerequisite to know where we can go',
   },
   {
     id: 'item2',
@@ -67,9 +67,9 @@ export const listItemSection5: ListItemSection5[] = [
       src: img2Section5,
       alt: 'image number 2',
     },
-    title: 'Closet Cleanse',
+    title: 'Explore And Have Fun',
     content:
-      'Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus',
+      'SWalk around and admire the scenery, take pictures, and eat delicious food there',
   },
   {
     id: 'item3',
@@ -78,9 +78,9 @@ export const listItemSection5: ListItemSection5[] = [
       src: img3Section5,
       alt: 'image number 3',
     },
-    title: 'Shopping Tour',
+    title: 'Handrail Karaoke',
     content:
-      'Sem curae incidunt in. Illum, culpa debitis omnis convallis fugiat temporibus',
+      'After a day of exploring, this is the place I want to go to have fun, watch the beautiful maids and have fun with them.',
   },
 ]
 

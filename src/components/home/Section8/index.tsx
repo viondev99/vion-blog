@@ -32,7 +32,7 @@ const Section8: FC = () => {
         <div className={classes.coverContent}>
           <div className={cx(classes.itemContent, classes.wrapItemLeft)}>
             <div className={classes.wrapTitle1}>
-              <h2 className={classes.title1}>Area of Expertise!</h2>
+              <h2 className={classes.title1}>A Few Things About Me</h2>
             </div>
             <div className={classes.wrapContent1}>
               {listItemLeftSection8.map((it: ListItemLeftSection8) => (

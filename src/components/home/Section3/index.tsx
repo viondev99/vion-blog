@@ -11,13 +11,12 @@ const Section3: FC = () => {
             I love traveling, to places with beautiful nature, beautiful
             architecture, and typical dishes of that place. Da Nang and Hoi An
             are probably my favorite tourist destinations. The handrail karaoke
-            service here is also excellent, the beautiful maids
-            and enthusiastically serve customers from A-Z.
+            service here is also excellent, the beautiful maids and
+            enthusiastically serve customers from A-Z.
           </h5>
           <h2 className={classes.title2}>
-            {
-              "Traveling is my #1 favorite. Discovering people in places I've been to."
-            }
+            Traveling is my #1 favorite. Discovering people in places I’ve been
+            to.
           </h2>
         </div>
       </div>

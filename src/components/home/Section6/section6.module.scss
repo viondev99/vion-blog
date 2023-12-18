@@ -31,7 +31,7 @@
 .section6 {
   min-height: auto;
   display: flex;
-  max-width: 850px;
+  max-width: 991.98px;
 }
 
 .coverContent {
@@ -128,6 +128,7 @@
     border-radius: 50%;
     width: 91px;
     height: 91px;
+    object-fit: cover;
 
     @media (max-width: 767.98px) {
       width: 81px;

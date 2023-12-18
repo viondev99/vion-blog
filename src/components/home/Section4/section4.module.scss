@@ -59,19 +59,21 @@
   aspect-ratio: auto 380 / 500;
   object-fit: cover;
 
-  &.img1 {
-    height: 369px;
-  }
+  @media (min-width: 1240px) {
+    &.img1 {
+      height: 369px;
+    }
 
-  &.img2 {
-   height: 435px; 
-  }
+    &.img2 {
+      height: 435px;
+    }
 
-  &.img3 {
-    height: 468px;
-  }
+    &.img3 {
+      height: 468px;
+    }
 
-  &.img4 {
-    height: 403px;
+    &.img4 {
+      height: 403px;
+    }
   }
 }

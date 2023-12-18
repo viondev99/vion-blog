@@ -6,10 +6,10 @@ import {
   ListItemLeftSection8,
 } from '@/models/home'
 
-import img1Section4 from '../assets/img/home/section4/img1S4.jpg'
-import img2Section4 from '../assets/img/home/section4/img2S4.jpg'
-import img3Section4 from '../assets/img/home/section4/img3S4.jpg'
-import img4Section4 from '../assets/img/home/section4/img4S4.jpg'
+import img1Section4 from '../assets/img/home/section4/img1S4.png'
+import img2Section4 from '../assets/img/home/section4/img2S4.png'
+import img3Section4 from '../assets/img/home/section4/img3S4.png'
+import img4Section4 from '../assets/img/home/section4/img4S4.png'
 
 import img1Section5 from '../assets/img/home/section5/figure1_section5.png'
 import img2Section5 from '../assets/img/home/section5/figure2_section5.png'
@@ -152,25 +152,24 @@ export const listItemLeftSection8: ListItemLeftSection8[] = [
   {
     id: 'menu1',
     title: 'Style',
-    content:
-      'Vitae molestie metus elementum ornare mauris. Occaecat, atque veniam dictum excepteur.',
+    content: 'Summer: shorts, T-shirt. Winter: trousers, warm jacket',
   },
   {
     id: 'menu2',
-    title: 'Trending Fashion',
+    title: 'Hobby',
     content:
-      'Vitae molestie metus elementum ornare mauris. Occaecat, atque veniam dictum excepteur.',
+      'Video game, fishing, baddminton, football, handrail karaoke, take photo',
   },
   {
     id: 'menu3',
-    title: 'People & Places',
+    title: 'Goût',
     content:
-      'Vitae molestie metus elementum ornare mauris. Occaecat, atque veniam dictum excepteur.',
+      'Maybe I’ll talk about my girlfriend Goût. I’m not good at flirting, so just As a girl, pretty, delicious, the richer the better. Just that doesn’t need much',
   },
   {
     id: 'menu4',
-    title: 'Before-After',
+    title: 'Orientation',
     content:
-      'Vitae molestie metus elementum ornare mauris. Occaecat, atque veniam dictum excepteur.',
+      'Programming is a difficult profession with a high income, so I will not quit this profession because I put a lot of effort and determination into becoming a programmer. Maybe I’ll stick with this job until I see I need to stop to do something else that works better suitable with me',
   },
 ]

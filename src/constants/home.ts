@@ -117,37 +117,6 @@ export const listLogoSection7: ListLogoSection7[] = [
   },
 ]
 
-export const listItemRightSection8: ListItemRightSection8[] = [
-  {
-    id: 'el1',
-    img: {
-      id: 'img1',
-      alt: 'an image',
-      src: img1Section8,
-    },
-    title: `I've Worked with from Big Agencies to New Bloggers.`,
-    content: `Molestiae purus facilisi nonummy soluta nisi odit, ac taciti voluptatibus, eveniet veritatis cubilia magna. Imperdiet.`,
-    linkURL: {
-      text: 'Read More',
-      url: '/',
-    },
-  },
-  {
-    id: 'el2',
-    img: {
-      id: 'img1',
-      alt: 'an image',
-      src: img2Section8,
-    },
-    title: `I Can Help You Take Your next Step Regardless of Size.`,
-    content: `Molestiae purus facilisi nonummy soluta nisi odit, ac taciti voluptatibus, eveniet veritatis cubilia magna. Imperdiet.`,
-    linkURL: {
-      text: 'Read More',
-      url: '/',
-    },
-  },
-]
-
 export const listItemLeftSection8: ListItemLeftSection8[] = [
   {
     id: 'menu1',
@@ -158,7 +127,7 @@ export const listItemLeftSection8: ListItemLeftSection8[] = [
     id: 'menu2',
     title: 'Hobby',
     content:
-      'Video game, fishing, baddminton, football, handrail karaoke, take photo',
+      'Video game, fishing, badminton, football, handrail karaoke, taking photos',
   },
   {
     id: 'menu3',
@@ -171,5 +140,39 @@ export const listItemLeftSection8: ListItemLeftSection8[] = [
     title: 'Orientation',
     content:
       'Programming is a difficult profession with a high income, so I will not quit this profession because I put a lot of effort and determination into becoming a programmer. Maybe I’ll stick with this job until I see I need to stop to do something else that works better suitable with me',
+  },
+]
+
+export const listItemRightSection8: ListItemRightSection8[] = [
+  {
+    id: 'el1',
+    img: {
+      id: 'img1',
+      alt: 'an image',
+      src: img1Section8,
+    },
+    title:
+      'For the first time in my life I bleached my hair, colored it and related stories.',
+    content:
+      'It was an early winter day, close to my birthday. The decision to dye my hair came from many things, many events, many people and many things that influenced my thinking.',
+    linkURL: {
+      text: 'Read More',
+      url: '/',
+    },
+  },
+  {
+    id: 'el2',
+    img: {
+      id: 'img1',
+      alt: 'an image',
+      src: img2Section8,
+    },
+    title: 'My high school love story and love story as a programmer.',
+    content:
+      'A teacher told me a great quote: a programmer should have 3 things at a young age: a motorbike, write a blog, and having a girlfriend.',
+    linkURL: {
+      text: 'Read More',
+      url: '/',
+    },
   },
 ]

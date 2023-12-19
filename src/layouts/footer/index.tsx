@@ -15,7 +15,7 @@ const Footer: FC = () => {
       <div className={classes.footer}>
         <div className={classes.wrapContent}>
           <div className={classes.leftContent}>
-            <p>Copyright © 2023 Vion Nguyen</p>
+            <p>Copyright © 2023 by Vion Nguyen</p>
           </div>
           <div className={classes.centerContent}>
             <div className={classes.listSocial}>

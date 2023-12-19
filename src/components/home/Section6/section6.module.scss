@@ -31,7 +31,7 @@
 .section6 {
   min-height: auto;
   display: flex;
-  max-width: 991.98px;
+  max-width: 850px;
 }
 
 .coverContent {
@@ -95,7 +95,7 @@
 
 .text3 {
   padding-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: px-to-rem(20);
   text-align: center;
   font-weight: 400;
@@ -108,6 +108,7 @@
 
   @media (max-width: 767.98px) {
     font-size: px-to-rem(16);
+    margin-bottom: 30px;
   }
 }
 

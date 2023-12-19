@@ -17,7 +17,7 @@ const Section6: FC = () => {
           </div>
           <h2 className={classes.text2}>
             Memories are to remember. Your future and growth are to look forward
-            to
+            to!
           </h2>
           <div className={classes.text3}>
             Although what I shared above has reminded people of the image of 1

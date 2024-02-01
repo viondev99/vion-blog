@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import cx from 'classnames'
 import classes from './section7.module.scss'
-import { listLogoSection7 } from '@/constants/home'
+import { listLogoSection7 } from '@/store/home_data'
 import { ListLogoSection7 } from '@/models/home'
 import Image from 'next/image'
 

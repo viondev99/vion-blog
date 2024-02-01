@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react'
 import cx from 'classnames'
-import { listItemLeftSection8, listItemRightSection8 } from '@/constants/home'
+import { listItemLeftSection8, listItemRightSection8 } from '@/store/home_data'
 import { ListItemLeftSection8, ListItemRightSection8 } from '@/models/home'
 import Image from 'next/image'
 import classes from './section8.module.scss'

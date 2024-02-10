@@ -1,11 +1,11 @@
 import React, { FC } from 'react'
 import classes from './footer.module.scss'
-import { listSiteBar, listSocialFooter } from '@/constants/layouts'
 import { ListIconSocial, ListSiteBar } from '@/models/header'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import cx from 'classnames'
 import Image from 'next/image'
+import { listSiteBar, listSocialFooter } from '@/store/main_layout_data'
 
 const Footer: FC = () => {
   const { pathname } = useRouter()

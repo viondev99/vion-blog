@@ -7,10 +7,10 @@ import cx from 'classnames'
 import useDeviceDetect from '@/hooks/useDeviceDetect'
 import logo from '../../assets/img/header/logo_header.png'
 import { ListIconSocial, ListSiteBar } from '@/models/header'
-import { listSiteBar, listSocial } from '@/constants/layouts'
 
 import icLightRowMenu from '../../assets/icons/header/ic_lightRowMenu.svg'
 import icExit from '../../assets/icons/header/ic_exit.svg'
+import { listSiteBar, listSocial } from '@/store/main_layout_data'
 
 const ListMenuMobile = lazy(() => import('./listMenuMobile'))
 
@@ -45,7 +45,7 @@ const Header: FC = () => {
                 ))}
               </div>
               <div className={classes.wrapSiteBarRight}>
-                {listSocial.map((it: ListIconSocial) => (
+                {listSocial .map((it: ListIconSocial) => (
                   <Link
                     href={it.url}
                     key={it.id}
